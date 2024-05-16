@@ -1,0 +1,16 @@
+{
+    "intents" : [
+        {
+            "intent" : "HowAreYou",
+            "tag":"HowAreYou",
+            "patterns" : ["How","you"],
+            "responses" : ["I am good.\nAnd how are you?"]
+        },
+        {
+            "intent" : "Buy Car",
+            "tag":"Buy Car",
+            "patterns" : ["Buy","car"],
+            "responses" : ["What type of car are you looking?"]
+        }
+    ]
+}
